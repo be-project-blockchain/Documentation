@@ -1,0 +1,17 @@
+curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+
+chmod u+x prereqs-ubuntu.sh
+
+./prereqs-ubuntu.sh
+
+
+Refer this:
+https://hyperledger.github.io/composer/latest/installing/development-tools
+
+########
+If any docker related issue arises, type following command..
+
+sudo usermod -a -G docker $USER
+
+Run this command in your favourite shell and then completely log out of your account and log back in 
+########
